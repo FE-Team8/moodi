@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+<h1><img width ="96" alt="img" src="https://github.com/prgrms-fe-devcourse/NFE1-1-3-MOODI/blob/main/public/logo.svg"> </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎵 음악과 함께하는 일기 서비스 ✍ ReadMe 여기에 연습하기
 
-Currently, two official plugins are available:
+<p>
+<strong>🗓️ 프로젝트 기간 : 2024.10.15 ~ 2024.11.06</strong>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 소개
 
-## Expanding the ESLint configuration
+📀 Moodi는 당신의 일기와 감정을 바탕으로 그날에 어울리는 음악을 추천해주는 서비스입니다. 음악으로 하루를 기억할 수 있도록 도와줍니다.✍
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 주요기능
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+📙 감정 일기 쓰기 
+🤖 AI를 활용한 음악 추천 
+🎹 Spotify, Youtube API를 활용한 음악 감상
+📈 감정 분석 그래프 조회
+📅 감정 달력 조회
