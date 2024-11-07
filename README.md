@@ -17,3 +17,7 @@
 🎹 Spotify, Youtube API를 활용한 음악 감상 <br/>
 📈 감정 분석 그래프 조회<br/>
 📅 감정 달력 조회<br/>
+
+## 기술 스택
+
+<img https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB>
